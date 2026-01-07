@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-07T16:30:39 IST" name="Default suite" finished-at="2026-01-07T16:30:40 IST" duration-ms="579">
+  <suite started-at="2026-01-07T16:52:23 IST" name="Default suite" finished-at="2026-01-07T16:52:24 IST" duration-ms="633">
     <groups>
     </groups>
-    <test started-at="2026-01-07T16:30:39 IST" name="Default test" finished-at="2026-01-07T16:30:40 IST" duration-ms="579">
+    <test started-at="2026-01-07T16:52:23 IST" name="Default test" finished-at="2026-01-07T16:52:24 IST" duration-ms="633">
       <class name="com.practice.TestNg.D_DataProvider_With_Excel">
-        <test-method signature="userDetailsFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practice.TestNg.D_DataProvider_With_Excel@702657cc]" started-at="2026-01-07T16:30:40 IST" name="userDetailsFromExcel" data-provider="data" finished-at="2026-01-07T16:30:40 IST" duration-ms="10" status="PASS">
+        <test-method signature="userDetailsFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practice.TestNg.D_DataProvider_With_Excel@702657cc]" started-at="2026-01-07T16:52:24 IST" name="userDetailsFromExcel" data-provider="data" finished-at="2026-01-07T16:52:24 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userDetailsFromExcel -->
-        <test-method signature="userDetailsFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practice.TestNg.D_DataProvider_With_Excel@702657cc]" started-at="2026-01-07T16:30:40 IST" name="userDetailsFromExcel" data-provider="data" finished-at="2026-01-07T16:30:40 IST" duration-ms="1" status="PASS">
+        <test-method signature="userDetailsFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practice.TestNg.D_DataProvider_With_Excel@702657cc]" started-at="2026-01-07T16:52:24 IST" name="userDetailsFromExcel" data-provider="data" finished-at="2026-01-07T16:52:24 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,16 +49,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userDetailsFromExcel -->
-        <test-method signature="userDetailsFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practice.TestNg.D_DataProvider_With_Excel@702657cc]" started-at="2026-01-07T16:30:40 IST" name="userDetailsFromExcel" data-provider="data" finished-at="2026-01-07T16:30:40 IST" duration-ms="1" status="PASS">
+        <test-method signature="userDetailsFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practice.TestNg.D_DataProvider_With_Excel@702657cc]" started-at="2026-01-07T16:52:24 IST" name="userDetailsFromExcel" data-provider="data" finished-at="2026-01-07T16:52:24 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[3.0]]>
+              </value>
             </param>
             <param index="1">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[Jhon]]>
+              </value>
             </param>
             <param index="2">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[Jhon@53]]>
+              </value>
             </param>
           </params>
           <reporter-output>

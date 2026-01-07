@@ -35,7 +35,7 @@ public class D_DataProvider_With_Excel {
 		Object userDetails[][] = new Object[row][cols];
 		
 //		2. Adding the Excel Data into the Object Array
-		for(int i=1;i<row;i++) {
+		for(int i=1;i<=row;i++) {
 			Row user = userDataSheet.getRow(i);
 			for(int j = 0;j<cols;j++) {
 				userDetails[i-1][j]=user.getCell(j).toString();
@@ -56,6 +56,7 @@ public class D_DataProvider_With_Excel {
 		
 		System.out.println();
 		System.out.println("=================================");
+		System.out.println();
 	}
 
 }

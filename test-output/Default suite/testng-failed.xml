@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.practice.TestNg.D_DependsOnMethod">
+      <class name="com.practice.TestNg.D_DataProvider_With_Excel">
         <methods>
-          <include name="orderTheProduct"/>
-          <include name="searchProducts"/>
-          <include name="registration"/>
-          <include name="addToCart"/>
-          <include name="loginUser"/>
+          <include name="userDetailsFromExcel"/>
         </methods>
-      </class> <!-- com.practice.TestNg.D_DependsOnMethod -->
+      </class> <!-- com.practice.TestNg.D_DataProvider_With_Excel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

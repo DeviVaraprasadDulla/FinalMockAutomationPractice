@@ -1,0 +1,13 @@
+<suite name="suite understing">
+	<test name="test-1">
+		<classes>
+			<class name="com.practice.TestNg.S_SuiteFileUnderstanding" >
+				<methods>
+					<include name="TC1"/>
+					<include name="TC2" />
+					<include name="TC3" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

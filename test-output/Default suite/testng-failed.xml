@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.practice.TestNg.P_Priority">
+      <class name="com.practice.TestNg.D_DependsOnMethod">
         <methods>
+          <include name="orderTheProduct"/>
           <include name="searchProducts"/>
+          <include name="registration"/>
+          <include name="addToCart"/>
+          <include name="loginUser"/>
         </methods>
-      </class> <!-- com.practice.TestNg.P_Priority -->
+      </class> <!-- com.practice.TestNg.D_DependsOnMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
